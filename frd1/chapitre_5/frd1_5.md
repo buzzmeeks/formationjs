@@ -148,3 +148,34 @@ const ajoutContextualiséAvecTousSesParamètres =
 console.log(ajoutContextualiséAvecTousSesParamètres()); // 11
 
 ```
+
+
+Exercices: 
+
+- Sachant que Array.prototype.slice est appliquable a n'importe quel element possedant une propriété length et que *arguments* possède une propriété length, trouver un moyen de transformer *arguments* en un tableau.
+
+- Recoder call en utilisant apply
+Exemple : 
+```
+Function.prototype.myCall = /* ... */
+
+function ajout(a, b) {
+  return this + a + b;
+}
+
+ajout.call(3, 6, 9) => 18
+ajout.myCall(3, 6, 9) => 18
+```
+
+- Recoder bind mais uniquement avec son premier paramètre
+
+```
+Function.prototype.myBind = /* ... */
+
+function bojour() {
+  return `Bonjour ${this}`;
+}
+
+const monBonjour = bonjour.myBind('Ubéric');
+monBonjour() => Bonjour Ubéric
+```

@@ -161,5 +161,5 @@ panier = [
     { article: 'brosse', nombre: 1, prix: 12 },
     { article: 'serviette', nombre: 2, prix: 20 },
 ]
-resultat = 'Votre panier contient 7 articles pour un montant total de 92 euros'
+resultat = 'Votre panier contient 7 articles pour un montant total de 112 euros'
 ```

@@ -139,7 +139,7 @@ console.log(somme(2)(4)(7)); // 16
 
 Exercices :
 
-- Créer une fonction qui prend 2 chiffres en paramètre; si les 2 paramètre sont renseignés la fonction doit retourner leur produit, si un seul paramètre est renseigné la fonction doit retourner une fonction qui peut être appellée plus tard avec un autre paramètre et retourner enfin le produit.
+- Créer une fonction qui prend 2 chiffres en paramètre; si les 2 paramètres sont renseignés la fonction doit retourner leur produit, si un seul paramètre est renseigné la fonction doit retourner une fonction qui peut être appellée plus tard avec un autre paramètre et retourner enfin le produit.
 
 Exemple :
 ```
@@ -162,3 +162,8 @@ jeu(2) => Trop petit
 jeu(5) => Bravo !!
 jeu(6) => Désolé le jeu est terminé
 ```
+
+
+for (let i = 0; i < 30; i++) {
+    jeu(Math.floor(Math.random() * 10));
+}
